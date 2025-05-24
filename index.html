@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="chatgpt.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Anjali</div>
+    
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- <button id="toggle-theme" class="theme-btn">
+      <i class="fas fa-moon"></i>
+    </button> -->
+  </header>
+
+  <main class="hero-section" id="home">
+    
+    <div class="hero-right">
+      <h1 class="typewriter">Hi, I'm a Web Developer</h1>
+      <p class="tagline">I create modern, fast & responsive websites.</p>
+      <a href="#projects" class="cta">View Projects</a>
+    </div>
+    <div class="hero-left">
+      <img src="Thoda_formal-removebg-preview.png" alt="Hero Image" />
+    </div>
+  </main>
+
+  <!-- about--------------------->
+<section id="about" class="about-section ">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="intro-text">
+      I am a passionate developer skilled in multiple languages and frameworks. I love building performant, clean, and user-friendly applications.
+    </p>
+    <div class="skills-grid">
+      <div class="skill-card">Python</div>
+      <div class="skill-card">Java</div>
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">C</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">React</div>
+      <div class="skill-card">Bootstrap</div>
+      <div class="skill-card">DSA</div>
+    </div>
+  </div>
+</section>
+
+<!-- ------------------------------projects---------------- -->
+
+<section id="projects" class="projects-section">
+  <h2 class="section-title">My Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+  <img src="travel-india.jpg" alt="Travel India" class="project-image" />
+  <div class="project-info">
+    <h3>Travel-India</h3>
+    <p>A visually rich travel website for discovering Indian destinations.</p>
+    <p><strong>Tech:</strong> HTML, CSS, JavaScript, React</p>
+    <div class="project-links">
+      <a href="https://your-travel-india-demo.com" target="_blank">Live Demo</a>
+      <a href="https://github.com/yourusername/travel-india" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="e-commerce.jpeg" alt="E-Commerce Website" class="project-image" />
+  <div class="project-info">
+    <h3>E-Commerce Website</h3>
+    <p>A complete shopping platform with product listings, cart, and checkout.</p>
+    <p><strong>Tech:</strong> HTML, CSS, JavaScript, React</p>
+    <div class="project-links">
+      <a href="https://your-ecommerce-demo.com" target="_blank">Live Demo</a>
+      <a href="https://github.com/yourusername/ecommerce-site" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="Screenshot 2025-05-23 135115.png" alt="Portfolio Website" class="project-image" />
+  <div class="project-info">
+    <h3>Personal Portfolio</h3>
+    <p>A sleek, animated dark-themed portfolio to showcase my work and skills.</p>
+    <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+    <div class="project-links">
+      <a href="https://your-portfolio-url.com" target="_blank">Live Demo</a>
+      <a href="https://github.com/yourusername/portfolio-site" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="farmer-7593460_1280.jpg" alt="Farmer Schemes Website" class="project-image" />
+  <div class="project-info">
+    <h3>Farmer Scheme Info Portal</h3>
+    <p>A user-friendly site that lists government schemes for farmers, making critical info more accessible.</p>
+    <p><strong>Tech:</strong> HTML, CSS, JavaScript, React</p>
+    <div class="project-links">
+      <a href="https://your-farmer-site-demo.com" target="_blank">Live Demo</a>
+      <a href="https://github.com/yourusername/farmer-schemes" target="_blank">GitHub</a>
+    </div>
+  </div>
+</div>
+
+    <!-- Add more project cards similarly -->
+  </div>
+</section>
+
+<!-- -------------------------------contact us------ -->
+ <section id="contact" class="contact-section">
+  <h2 class="section-title">Contact Me</h2>
+  <p class="section-subtitle">Let's build something together</p>
+  
+ <form id="contact-form" class="contact-form">
+  <input type="text" name="name" required placeholder="Your Name" />
+  <input type="email" name="email" required placeholder="Your Email" />
+  <textarea name="message" required placeholder="Your Message"></textarea>
+  <button type="submit" class="submit-btn">Send Message</button>
+</form>
+<p id="form-response"></p>
+
+  
+</section>
+
+
+
+  <script src="chatgpt.js">
+   
+
+</script>
+
+</body>
+</html>
